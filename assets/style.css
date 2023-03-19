@@ -49,3 +49,18 @@ display: block;
     background-size: cover;
     background-position: center;
 }
+
+/*container*/
+.container {
+display :flex;
+flex-direction :row;
+width: 100%;
+margin-top: 10px;
+}
+
+#aboutme {
+flex-basis: 30%;
+text-indent: 20%;
+
+}
+#abouttext {flex-basis: 60%;}
