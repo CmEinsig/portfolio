@@ -14,7 +14,7 @@ display: block;
     padding: 20px 0px 0px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #d2e6bb;
-    color: 	#73924e;}
+    color: 	#314618;}
 
 .header h1 {
     display: inline-block;
@@ -53,14 +53,41 @@ display: block;
 /*container*/
 .container {
 display :flex;
-flex-direction :row;
 width: 100%;
 margin-top: 10px;
+flex-direction: row;
+
 }
 
 #aboutme {
 flex-basis: 30%;
 text-indent: 20%;
+color: #314618;
+}
+#abouttext 
+{flex-basis: 60%;}
+
+#mywork {
+    flex-basis: 30%;
+    text-indent: 20%;
 
 }
-#abouttext {flex-basis: 60%;}
+#worktext 
+    {flex-basis: 60%;
+}
+
+#photos {
+flex-wrap: wrap;
+display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+#contact {
+    flex-basis: 30%;
+    text-indent: 20%;
+
+}
+#contacttext
+    {flex-basis: 60%;
+}
