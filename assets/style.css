@@ -3,6 +3,8 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    line-height: 1.5;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /*body code*/
 body {
@@ -12,7 +14,6 @@ display: block;
 /*header code*/
 .header {
     padding: 20px 0px 0px 0px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #d2e6bb;
     color: 	#314618;
 }
@@ -31,7 +32,7 @@ display: block;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-.nav  ul {
+.nav ul {
     list-style-type: none;
 }
 .nav ul li {
@@ -49,14 +50,31 @@ display: block;
     margin: 0px;
     background-size: cover;
     background-position: center;
+    position: relative;
 }
+#top-left {
+    position: absolute;
+    top: 144px;
+    left: 1400px;
+    font-family: cursive;
+    color: rgb(20, 136, 20);
+  }
+
 /*container*/
 .container {
 display :flex;
+flex-wrap: wrap;
 width: 100%;
 margin-top: 10px;
 flex-direction: row;
 }
+
+h2{
+    display: block;
+    font-size: 25px;
+    font-weight: bold;
+}
+
 /*about me*/
 #aboutme {
 flex-basis: 30%;
@@ -78,17 +96,36 @@ text-indent: 20%;
 #worktext 
     {flex-basis: 60%;
         position: relative;
+        flex-wrap: wrap;
 }
 
 img {
     width: 250px;
-    height: 250px;}
+    height: 250px;
+position: relative;}
 
 #flex1{
-    flex-grow: 2;
-    width: 400px;
-    height: 400px;
+width: 90%;
 }
+.flex2 {
+    width: 45%
+}
+
+#top-left {
+    position: absolute;
+    top: 144px;
+    left: 1400px;
+    font-family: cursive;
+    color: rgb(20, 136, 20);
+  }
+
+  #middle {
+    position: absolute;
+    top: 50px;
+    left: 147px;
+    font-family: cursive;
+    color: rgb(101, 8, 104);
+  }
 
 /*contact me*/
 #contact {
@@ -96,8 +133,14 @@ img {
     text-indent: 20%;
     color: 	#314618;
 font-weight: bold;}
+
 #contacttext
-    {flex-basis: 60%;}
+    {flex-basis: 60%;
+    justify-content: space-between;}
+    
+#contacttext p {
+    font-size: 50;
+}
 
 
 .footer {
@@ -119,12 +162,11 @@ font-weight: bold;}
 
   
   /* Cards are stacked on top of each other at 768px or smaller */
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 .nav ul li{
-        flex-direction: column;
-    }
-    #aboutme {
-        flex-basis: 100%;}
+        flex-direction: column;}
+
+#aboutme {flex-basis: 100%;}
 #mywork {flex-basis: 100%;}
 #contact {flex-basis: 100%;}
   }
