@@ -152,7 +152,7 @@ font-weight: bold;}
 
     /* Cards are split into two columns at 992px or smaller */
 @media screen and (max-width: 992px) {
-.nav ul li {
+.nav {
       flex-direction: column;}
 #aboutme {
         flex-basis: 100%;}
@@ -163,7 +163,7 @@ font-weight: bold;}
   
   /* Cards are stacked on top of each other at 768px or smaller */
 @media screen and (max-width: 768px) {
-.nav ul li{
+.nav {
         flex-direction: column;}
 
 #aboutme {flex-basis: 100%;}
