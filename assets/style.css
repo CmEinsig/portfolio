@@ -126,7 +126,34 @@ width: 90%;
     font-family: cursive;
     color: rgb(101, 8, 104);
   }
-
+  #middleRight {
+    position: absolute;
+    top: 286px;
+    left: 147px;
+    font-family: cursive;
+    color: rgb(101, 8, 104);
+  }
+  #middleLeft {
+    position: absolute;
+    top: 286px;
+    left: 450px;
+    font-family: cursive;
+    color: rgb(101, 8, 104);
+  }
+  #bottomRight {
+    position: absolute;
+    top: 561px;
+    left: 147px;
+    font-family: cursive;
+    color: rgb(101, 8, 104);
+  }
+  #bottomLeft {
+    position: absolute;
+    top: 561px;
+    left: 450px;
+    font-family: cursive;
+    color: rgb(101, 8, 104);
+  }
 /*contact me*/
 #contact {
     flex-basis: 30%;

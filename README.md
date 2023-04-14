@@ -11,7 +11,7 @@ None
 
 Usage is available on the website. You can click all links to take you to different pages, and clicking the photos will take you to different websites. 
 
-
+[link to portfolio]( https://cmeinsig.github.io/portfolio/)
 ![Screenshot of portfolio webpage](./assets/images/screencapture-file-C-Users-Courtney-challenges-portfolio-index-html-2023-03-21-09_56_28.png)
 
 ## Credits
