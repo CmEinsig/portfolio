@@ -153,7 +153,21 @@ width: 90%;
     left: 450px;
     font-family: cursive;
     color: rgb(101, 8, 104);
-  }
+}
+
+#mySkills {
+    flex-basis: 30%;
+    text-indent: 20%;
+    color: 	#314618;
+font-weight: bold;}
+
+#skillsText
+    {flex-basis: 60%;
+    justify-content: space-between;}
+    
+#skillsText p {
+    font-size: 50;
+}
 /*contact me*/
 #contact {
     flex-basis: 30%;
